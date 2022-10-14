@@ -16,3 +16,6 @@ python-decouple
 pytz
 raven
 redis
+# 用于文档
+mkdocs
+shadocs

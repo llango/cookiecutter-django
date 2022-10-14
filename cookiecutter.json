@@ -7,6 +7,6 @@
     "domain_name": "www.llango.com",
     "email": "rontomai@gmail.com",
     "version": "0.1.0",
-    "timezone": "Asian/Shanghai",
+    "timezone": "Asia/Shanghai",
     "virtualenv_rootpath": "/Users/zou/.venv"
 }
