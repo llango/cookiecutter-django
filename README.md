@@ -17,7 +17,7 @@ Cookiecutter Django
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/codevance/cookiecutter-django -f -o ..
+cookiecutter https://github.com/llango/cookiecutter-django -f -o ..
 ```
 
 设置首个配置：
