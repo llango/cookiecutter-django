@@ -17,7 +17,7 @@ def create_logentry(creator, object, message=None, is_change=False):
     from django.contrib.admin.models import LogEntry, ADDITION, CHANGE, ContentType
 
     if not message:
-        message = 'Adicionado.'
+        message = '添加'
 
     LogEntry.objects.log_action(
         user_id=creator.id,
