@@ -1,0 +1,12 @@
+{
+    "directory_name": "project",
+    "project_name": "Django Starter",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+    "description": "可以使用这个构建你的Django项目",
+    "author_name": "凉葱落",
+    "domain_name": "www.llango.com",
+    "email": "rontomai@gmail.com",
+    "version": "0.1.0",
+    "timezone": "Asian/Shanghai",
+    "virtualenv_rootpath": "/Users/zou/.venv"
+}
