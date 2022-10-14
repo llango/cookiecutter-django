@@ -1,0 +1,48 @@
+---
+# Project Information
+site_name: {{cookiecutter.project_name}}
+site_author: {{cookiecutter.author_name}}
+site_description: {{cookiecutter.description}}
+
+# Repository information
+
+
+# Copyright
+copyright: 版权 &copy; 2022 {{cookiecutter.author_name}}
+
+# Configuration
+theme:
+  name: shadocs
+  logo: '/images/smodel.png'
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tabs
+  language: cn
+  highlightjs: true
+  hljs_languages:
+    - python 
+    - javascript
+    - bash
+    - django
+  
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/llango
+      name: llango on GitHub
+
+markdown_extensions:
+  - admonition
+  - toc:
+      toc_depth: 2
+      permalink: True
+
+# Page tree
+nav:
+  - 首页: index.md
+  - 版本: version.md
+  - 更新: update.md
