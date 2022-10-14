@@ -17,9 +17,9 @@ def test_create_logentry():
     assert LogEntry.objects.all()
     logentry = LogEntry.objects.get(
         user=user1, object_id=user2.id, object_repr=str(user2), action_flag=ADDITION)
-    assert logentry.change_message == 'Adicionado.'
+    assert logentry.change_message == '添加'
 
-    create_logentry(creator=user1, object=user2, is_change=True, message='Teste')
+    create_logentry(creator=user1, object=user2, is_change=True, message='测试')
     logentry = LogEntry.objects.get(
         user=user1, object_id=user2.id, object_repr=str(user2), action_flag=CHANGE)
-    assert logentry.change_message == 'Teste'
+    assert logentry.change_message == '测试'

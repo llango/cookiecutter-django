@@ -6,10 +6,10 @@ from django.utils import timezone
 
 
 class Base(models.Model):
-    """Model Base para todos os outros models do projeto."""
+    """项目中所有其他模型的模型库。"""
 
     class Meta:
         abstract = True
 
-    created = models.DateTimeField('Criado em', default=timezone.now)
-    updated = models.DateTimeField('Alterado em', auto_now=True)
+    created = models.DateTimeField('创建时间', default=timezone.now)
+    updated = models.DateTimeField('更新时间', auto_now=True)
