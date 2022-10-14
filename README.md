@@ -24,7 +24,7 @@ cookiecutter https://github.com/llango/cookiecutter-django -f -o ..
 
 ```bash
 pip install -r requirements-test.txt
-cp -r env-sample .env
+cp -r contrib/env-sample .env
 ```
 
 命令
