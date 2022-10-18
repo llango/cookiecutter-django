@@ -2,7 +2,8 @@ from django.apps import AppConfig
 
 
 class CoreConfig(AppConfig):
-    name = 'core'
-
+    name = 'apps.core'
+    label = "core"
+    
     def ready(self):
-        from core.signals import create_or_update_user_profile
+        from apps.core.signals import create_or_update_user_profile

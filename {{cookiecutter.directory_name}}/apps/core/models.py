@@ -1,5 +1,5 @@
 from django.db import models
-from utils.models import Base
+from apps.utils.models import Base
 from django.contrib.auth.models import User
 
 

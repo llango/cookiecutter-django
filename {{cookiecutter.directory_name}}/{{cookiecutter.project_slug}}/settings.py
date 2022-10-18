@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'dbbackup',
     'logentry_admin',
 
-    'apps.utils',
+    'apps.utils.apps.UtilsConfig',
     'apps.core.apps.CoreConfig',
 ]
 
