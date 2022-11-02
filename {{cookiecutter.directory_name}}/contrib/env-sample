@@ -7,7 +7,7 @@ DATABASE_URL=postgres://{{ cookiecutter.project_slug }}:{{ cookiecutter.project_
 # email设置
 EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
 
-DBBACKUP_STORAGE_OPTIONS=../backup
+DBBACKUP_STORAGE_OPTIONS=./backup
 
 STORAGE_IS_ACTIVATE=false
 AWS_ACCESS_KEY_ID=your-aws-access-key
