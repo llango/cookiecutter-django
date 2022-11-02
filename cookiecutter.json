@@ -8,5 +8,5 @@
     "email": "rontomai@gmail.com",
     "version": "0.1.0",
     "timezone": "Asia/Shanghai",
-    "virtualenv_rootpath": "/Users/zou/.venv"
+    "virtualenv_rootpath": "venv"
 }
