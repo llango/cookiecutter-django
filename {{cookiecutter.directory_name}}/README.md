@@ -61,7 +61,7 @@ pyenv virtualenv 3.9.8 {{cookiecutter.project_name}}
 
 ### 测试
 
-- 安装测试依赖项 `pip install -r requirements-test.txt`
+- 安装测试依赖项 `pip install -r requirements/test.txt`
 - 运行测试 `make test`
 
 ### 建议
