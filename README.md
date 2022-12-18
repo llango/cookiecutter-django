@@ -23,7 +23,7 @@ cookiecutter https://github.com/llango/cookiecutter-django -f -o ..
 设置首个配置：
 
 ```bash
-pip install -r requirements-test.txt
+pip install -r requirements/test.txt
 cp -r contrib/env-sample .env
 ```
 
