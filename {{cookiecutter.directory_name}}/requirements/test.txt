@@ -1,4 +1,5 @@
--r requirements.txt
+-r ./base.txt
+
 autopep8
 model-bakery
 pytest
